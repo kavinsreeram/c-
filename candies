@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main() 
+{
+    int n=10,k,b,a;
+    cin>>b; 
+    a=n-b;
+    {
+    if (a>=5)
+    {
+    cout<<"sold "<<b<<endl;
+    cout<<"available"<<a<<endl;
+    }
+    else if(b>5)
+    cout<<"invalid"<<a;
+}
+    
+    return 0;
+}
